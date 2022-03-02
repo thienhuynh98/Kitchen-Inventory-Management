@@ -1,0 +1,93 @@
+.title
+{
+    text-align: center;
+}
+.list
+{
+    list-style: none;
+    padding-bottom: 10px;
+    /*text-align: center;*/
+}
+/*.label*/
+/*{*/
+/*    margin-left: 10px;*/
+/*}*/
+.inner-list
+{
+    padding-bottom: 15px;
+}
+.button-2
+{
+    margin-left: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.button-2:hover
+{
+    background-color: burlywood;
+}
+.border
+{
+    border: 5px solid black;
+    width: 300px;
+    border-radius: 10px;
+    padding: 5px;
+    margin: auto;
+}
+.button-set
+{
+    text-align: center;
+}
+input
+{
+    margin-left: 10px;
+}
+select
+{
+    margin-left: 10px;
+}
+.navigation-button
+{
+    padding-top: 100px;
+    text-align: center;
+}
+.button-next
+{
+    margin-left: 100px;
+    background-color: bisque;
+    border-radius: 10px;
+}
+.button-next:hover
+{
+    background-color: burlywood;
+}
+button
+{
+    width: 100px;
+    height: 30px
+}
+.register-previous-button
+{
+    background-color: bisque;
+    border-radius: 10px;
+}
+.register-previous-button:hover
+{
+    background-color: burlywood;
+}
+.register-next-button
+{
+    background-color: bisque;
+    border-radius: 10px;
+}
+.food-register{
+    background-color: bisque;
+    border-radius: 10px;
+}
+.food-register:hover{
+    background-color: burlywood;
+}
+/*.show*/
+/*{*/
+/*    display: none;*/
+/*}*/

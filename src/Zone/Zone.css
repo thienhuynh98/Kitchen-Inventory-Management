@@ -1,0 +1,84 @@
+.zone-title
+{
+    text-align: center;
+}
+.zone-border
+{
+    border: 5px solid black;
+    width: 400px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.add-cancel-remove
+{
+    text-align: center;
+
+}
+.cancel
+{
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+.cancel:hover
+{
+    background-color: burlywood;
+}
+.zone-add
+{
+    border-radius: 10px;
+    background-color: bisque;
+}
+.zone-add:hover
+{
+    background-color: burlywood;
+}
+.remove
+{
+    border-radius: 10px;
+    background-color: bisque;
+}
+.remove:hover
+{
+    background-color: burlywood;
+}
+.zone-list
+{
+    list-style: none;
+    padding-bottom: 10px;
+    /*text-align: center;*/
+}
+.zone-inner-list
+{
+    padding-bottom: 15px;
+}
+.color-choose
+{
+    padding-top: 10px;
+}
+.zone-navigation-button
+{
+    padding-top: 100px;
+    text-align: center;
+}
+.zone-button-next
+{
+    border-radius: 10px;
+    background-color: bisque;
+    margin-left: 100px;
+}
+.zone-button-next:hover
+{
+    background-color: burlywood;
+}
+.zone-button-previous
+{
+    border-radius: 10px;
+    background-color: bisque;
+}
+.zone-button-previous:hover
+{
+    background-color: burlywood;
+}

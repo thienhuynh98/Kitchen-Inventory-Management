@@ -1,0 +1,19 @@
+.home-title
+{
+    text-align: center;
+}
+.home-button-set
+{
+    padding-top: 200px;
+    text-align: center;
+}
+.home-button1
+{
+    border-radius: 10px;
+    background-color: bisque;
+    margin-left: 10px;
+}
+.home-button1:hover
+{
+    background-color: burlywood;
+}

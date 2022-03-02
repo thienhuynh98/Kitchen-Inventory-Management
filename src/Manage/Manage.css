@@ -1,0 +1,17 @@
+.manage-border
+{
+    border: 5px solid black;
+    width: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 0;
+    margin-left: auto;
+}
+.manage-list
+{
+    list-style: none;
+}
+.manage-list-inner
+{
+    padding-bottom: 10px;
+}
