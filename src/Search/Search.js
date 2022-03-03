@@ -1,9 +1,11 @@
 import {useState} from "react";
 import "./Search.css"
 import { useNavigate } from 'react-router-dom';
+import uuid from 'react-uuid'
 export default function Search(props)
 {
     const [searchFood, setSearchFood] = useState("")
+    const [manage, setManage] = useState([])
 
     const {food, setFood, store, setStore, result, setResult} = props
 
@@ -15,7 +17,7 @@ export default function Search(props)
         if(doesItHaveNumber === true)
         {
             {store.map((value) => {
-                if(value.food.includes(searchFood)){
+                if(value.code.includes(searchFood)){
                     tempResult.push(value)
                 }
             })}
@@ -23,7 +25,7 @@ export default function Search(props)
         else
         {
             {store.map((value) => {
-                if(value.code.includes(searchFood)){
+                if(value.food.includes(searchFood)){
                     tempResult.push(value)
                 }
             })}
