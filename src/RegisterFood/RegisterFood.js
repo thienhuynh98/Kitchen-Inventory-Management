@@ -21,7 +21,8 @@ export default function RegisterFood(props)
                 food: foodName,
                 code: code,
                 unit: unit,
-                restock: restock
+                restock: restock,
+                amount: "0"
             }])
             setBarcode([...barcode, code])
         }
@@ -89,8 +90,8 @@ export default function RegisterFood(props)
                 </div>
             </div>
             <div className='navigation-button'>
-                <button className='register-previous-button' onClick={goPrevious}>Previous</button>
-                <button className='button-next' onClick={goNext}>Next</button>
+                <button className='register-previous-button' onClick={goPrevious} style={{width: "200px", borderRadius: "10px", backgroundColor: "bisque"}}>Zone - Previous</button>
+                <button className='button-next' onClick={goNext} style={{width: "200px", borderRadius: "10px", backgroundColor: "bisque"}}>Next - Search Food</button>
             </div>
         </div>
     )

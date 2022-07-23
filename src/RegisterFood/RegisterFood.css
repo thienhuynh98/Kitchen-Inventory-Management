@@ -6,12 +6,7 @@
 {
     list-style: none;
     padding-bottom: 10px;
-    /*text-align: center;*/
 }
-/*.label*/
-/*{*/
-/*    margin-left: 10px;*/
-/*}*/
 .inner-list
 {
     padding-bottom: 15px;
@@ -21,10 +16,6 @@
     margin-left: 10px;
     background-color: bisque;
     border-radius: 10px;
-}
-.button-2:hover
-{
-    background-color: burlywood;
 }
 .border
 {
@@ -57,10 +48,6 @@ select
     background-color: bisque;
     border-radius: 10px;
 }
-.button-next:hover
-{
-    background-color: burlywood;
-}
 button
 {
     width: 100px;
@@ -71,10 +58,6 @@ button
     background-color: bisque;
     border-radius: 10px;
 }
-.register-previous-button:hover
-{
-    background-color: burlywood;
-}
 .register-next-button
 {
     background-color: bisque;
@@ -84,10 +67,3 @@ button
     background-color: bisque;
     border-radius: 10px;
 }
-.food-register:hover{
-    background-color: burlywood;
-}
-/*.show*/
-/*{*/
-/*    display: none;*/
-/*}*/

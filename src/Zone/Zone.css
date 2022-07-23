@@ -16,39 +16,10 @@
     text-align: center;
 
 }
-.cancel
-{
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: bisque;
-}
-.cancel:hover
-{
-    background-color: burlywood;
-}
-.zone-add
-{
-    border-radius: 10px;
-    background-color: bisque;
-}
-.zone-add:hover
-{
-    background-color: burlywood;
-}
-.remove
-{
-    border-radius: 10px;
-    background-color: bisque;
-}
-.remove:hover
-{
-    background-color: burlywood;
-}
 .zone-list
 {
     list-style: none;
     padding-bottom: 10px;
-    /*text-align: center;*/
 }
 .zone-inner-list
 {
@@ -63,22 +34,7 @@
     padding-top: 100px;
     text-align: center;
 }
-.zone-button-next
+.hide-add-cancel
 {
-    border-radius: 10px;
-    background-color: bisque;
-    margin-left: 100px;
-}
-.zone-button-next:hover
-{
-    background-color: burlywood;
-}
-.zone-button-previous
-{
-    border-radius: 10px;
-    background-color: bisque;
-}
-.zone-button-previous:hover
-{
-    background-color: burlywood;
+    display: none;
 }
